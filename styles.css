@@ -9,19 +9,32 @@ header {
   justify-content: center;
 }
 
+@font-face {
+  font-family: nexabold;
+  src: url(fonts/nexa.ttf);
+}
+
+@font-face {
+  font-family: nexalight;
+  src: url(fonts/nexalight.ttf);
+}
+
 #judul {
   background-color: #FF8000;
   padding: 8px;
   text-align: center;
   border-radius: 5px;
-  font-size: 14;
+  font-size: 13px;
   font-family: sans-serif;
+  font-family: nexabold;
 }
 
 #subjudul{
   color: #FFF;
   font-family: Monospace;
   margin-top: 5px;
+  font-size: 11px;
+  font-family: nexalight;
 }
 
 .item {
@@ -37,6 +50,8 @@ header {
   font-family: sans-serif;
   font-size: 13px;
   margin-top: 0;
+  font-family: nexabold;
+  padding: 0;
 }
 
 #check{
@@ -98,4 +113,16 @@ input:checked + .switch::before{
 .fitur1{
   display: flex;
   align-items: center;
+  padding: 0;
+}
+
+.caption{
+  font-family: nexalight;
+  padding: 0;
+}
+
+#banner{
+  height: 200px;
+  padding: 0;
+  margin: 0;
 }
